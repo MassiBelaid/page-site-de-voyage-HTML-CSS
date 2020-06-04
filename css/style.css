@@ -4,6 +4,10 @@
 	margin:0;
 	padding: 0;
 }
+h3{
+	font-size: 30px;
+	color: #444;
+}
 
 body{
 	font-family: Arial, sans-serif;
@@ -42,6 +46,12 @@ h4{
 	
 }
 
+small{
+	font-size: 13px;
+	font-style: italic;
+}
+
+
 p{
 	line-height: 20px;
 	color: #777;
@@ -67,6 +77,10 @@ header h1{
 header nav{
 	float:right;
 	margin-top: 50px;
+}
+
+.clear{
+	clear:both;
 }
 
 header nav ul li{
@@ -154,6 +168,107 @@ header nav ul li a:hover{
 }
 
 
+/* POSSIBILITIES*/
+
+#possibilities{
+	background-color: #efefef;
+	padding : 60px 0;
+}
+
+
+#possibilities article{
+	height: 270px;
+	width: 460px;
+	float: left;
+	border-radius: 10px;
+}
+
+#possibilities article:first-child{
+	margin-right: 20px;
+}
+
+.overlay{
+	background: rgba(255,255,255,0.90);
+	height: 100%;
+	width: 190px;
+	padding: 20px;
+	border-radius: 10px 0 0 10px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+article h4{
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#possibilities p{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.button2{
+	color: #fff;
+	background-color: #ff7a00;
+	padding: 6px 20px;
+	border-radius: 3px;
+}
+
+.button2:hover{
+	color: #fff;
+	background-color: #02b8dd;
+}
+
+
+/* CONTACT */
+#contact{
+	padding: 60px 0;
+	text-align: center;
+}
+
+#contact h3{
+	width: 400px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #02b8dd;
+	margin: 0 auto 20px auto;
+	padding-bottom: 20px;
+}
+form{
+	margin:60px 0 20px 0;
+	
+}
+
+label{
+	font-weight: bold;
+	font-size: 20px;
+	margin-right: 10px;
+	color: #777;
+}
+input[type="text"]{
+	padding : 10px;
+	font-size: 20px;
+	margin-right: 20px;
+	border: 2px solid #bdd;
+	border-radius: 3px;
+}
+
+.button3{
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 11px;
+	background-color: #02b8dd;
+	border-style: none;
+	border-radius: 3px;
+}
+.button3:hover{
+	color: #fff;
+	background-color: #444;
+}
 
 
 
